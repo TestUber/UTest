@@ -43,17 +43,18 @@ class PhotoQuery: NSObject, SearchItem {
             guard let result = searchResult else {
                 return
             }
-            var indexPaths = [IndexPath]()
-            for i in self.photos.count...self.photos.count + result.photos.count - 1 {
-                indexPaths.append(IndexPath.init(item: i, section: 0))
+            if searchResult?.photos.count ?? 0 > 0 {
+                var indexPaths = [IndexPath]()
+                for i in self.photos.count...self.photos.count + result.photos.count - 1 {
+                    indexPaths.append(IndexPath.init(item: i, section: 0))
+                }
+                self.photos.append(contentsOf: result.photos)
+                self.page = result.currentPage
+                self.totalPhotos = result.totalItems
+                DispatchQueue.main.async {
+                    self.collectionView?.insertItems(at: indexPaths)
+                }
             }
-            self.photos.append(contentsOf: result.photos)
-            self.page = result.currentPage
-            self.totalPhotos = result.totalItems
-            DispatchQueue.main.async {
-                self.collectionView?.insertItems(at: indexPaths)
-            }
-            
         }
     }
     
