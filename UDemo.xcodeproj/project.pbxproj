@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777A495A21B4B69D006E43D1 /* Error.png in Resources */ = {isa = PBXBuildFile; fileRef = 777A495921B4B69D006E43D1 /* Error.png */; };
+		777A495B21B4B69D006E43D1 /* Error.png in Resources */ = {isa = PBXBuildFile; fileRef = 777A495921B4B69D006E43D1 /* Error.png */; };
+		777A495C21B4B69D006E43D1 /* Error.png in Resources */ = {isa = PBXBuildFile; fileRef = 777A495921B4B69D006E43D1 /* Error.png */; };
+		777A496121B4C322006E43D1 /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6321B47A8E0052B324 /* SearchItem.swift */; };
+		777A496221B4C36E006E43D1 /* FlickerPhotosSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6721B47DE00052B324 /* FlickerPhotosSearchResult.swift */; };
+		777A496321B4D4D2006E43D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5321ADB434003C71E9 /* ViewController.swift */; };
+		777A496421B4D4D3006E43D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5321ADB434003C71E9 /* ViewController.swift */; };
+		777A496521B4D730006E43D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E7FA5521ADB434003C71E9 /* Main.storyboard */; };
+		777A496621B4D731006E43D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E7FA5521ADB434003C71E9 /* Main.storyboard */; };
+		777A496721B4D737006E43D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5121ADB434003C71E9 /* AppDelegate.swift */; };
+		777A496821B4D738006E43D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5121ADB434003C71E9 /* AppDelegate.swift */; };
+		77B4FF6221B479FC0052B324 /* FlickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6121B479FC0052B324 /* FlickerService.swift */; };
+		77B4FF6421B47A8E0052B324 /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6321B47A8E0052B324 /* SearchItem.swift */; };
+		77B4FF6521B47A8E0052B324 /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6321B47A8E0052B324 /* SearchItem.swift */; };
+		77B4FF6821B47DE00052B324 /* FlickerPhotosSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6721B47DE00052B324 /* FlickerPhotosSearchResult.swift */; };
+		77B4FF6921B47DE00052B324 /* FlickerPhotosSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6721B47DE00052B324 /* FlickerPhotosSearchResult.swift */; };
+		77B4FF7121B489310052B324 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6F21B489310052B324 /* PhotoCollectionViewCell.swift */; };
+		77B4FF7221B489310052B324 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6F21B489310052B324 /* PhotoCollectionViewCell.swift */; };
+		77B4FF7321B489310052B324 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6F21B489310052B324 /* PhotoCollectionViewCell.swift */; };
+		77B4FF7421B489310052B324 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B4FF7021B489310052B324 /* PhotoCollectionViewCell.xib */; };
+		77B4FF7521B489310052B324 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B4FF7021B489310052B324 /* PhotoCollectionViewCell.xib */; };
+		77B4FF7621B489310052B324 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B4FF7021B489310052B324 /* PhotoCollectionViewCell.xib */; };
+		77B4FF7821B48E630052B324 /* PhotoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF7721B48E630052B324 /* PhotoQuery.swift */; };
+		77B4FF7921B48E630052B324 /* PhotoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF7721B48E630052B324 /* PhotoQuery.swift */; };
+		77B4FF7A21B48E630052B324 /* PhotoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF7721B48E630052B324 /* PhotoQuery.swift */; };
+		77B4FF7B21B4909E0052B324 /* FlickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6121B479FC0052B324 /* FlickerService.swift */; };
+		77B4FF7C21B4909E0052B324 /* FlickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FF6121B479FC0052B324 /* FlickerService.swift */; };
 		77E7FA5221ADB434003C71E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5121ADB434003C71E9 /* AppDelegate.swift */; };
 		77E7FA5421ADB434003C71E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FA5321ADB434003C71E9 /* ViewController.swift */; };
 		77E7FA5721ADB434003C71E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E7FA5521ADB434003C71E9 /* Main.storyboard */; };
@@ -34,6 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		777A495921B4B69D006E43D1 /* Error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Error.png; sourceTree = "<group>"; };
+		77B4FF6121B479FC0052B324 /* FlickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerService.swift; sourceTree = "<group>"; };
+		77B4FF6321B47A8E0052B324 /* SearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItem.swift; sourceTree = "<group>"; };
+		77B4FF6721B47DE00052B324 /* FlickerPhotosSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotosSearchResult.swift; sourceTree = "<group>"; };
+		77B4FF6F21B489310052B324 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		77B4FF7021B489310052B324 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		77B4FF7721B48E630052B324 /* PhotoQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoQuery.swift; sourceTree = "<group>"; };
 		77E7FA4E21ADB434003C71E9 /* UDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E7FA5121ADB434003C71E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E7FA5321ADB434003C71E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +108,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		777A495821B4B693006E43D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				777A495921B4B69D006E43D1 /* Error.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		77B4FF6021B46DDB0052B324 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				77B4FF6121B479FC0052B324 /* FlickerService.swift */,
+				77B4FF6321B47A8E0052B324 /* SearchItem.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		77B4FF6621B47DC90052B324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77B4FF6721B47DE00052B324 /* FlickerPhotosSearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77B4FF6A21B482B80052B324 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				77B4FF7721B48E630052B324 /* PhotoQuery.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77B4FF6E21B489120052B324 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77B4FF6F21B489310052B324 /* PhotoCollectionViewCell.swift */,
+				77B4FF7021B489310052B324 /* PhotoCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		77E7FA4521ADB434003C71E9 = {
 			isa = PBXGroup;
 			children = (
+				777A495821B4B693006E43D1 /* Images */,
+				77B4FF6E21B489120052B324 /* Cell */,
+				77B4FF6A21B482B80052B324 /* ViewModel */,
+				77B4FF6621B47DC90052B324 /* Model */,
+				77B4FF6021B46DDB0052B324 /* Service */,
 				77E7FA5021ADB434003C71E9 /* UDemo */,
 				77E7FA6521ADB436003C71E9 /* UDemoTests */,
 				77E7FA7021ADB436003C71E9 /* UDemoUITests */,
@@ -230,7 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E7FA5C21ADB436003C71E9 /* LaunchScreen.storyboard in Resources */,
+				77B4FF7421B489310052B324 /* PhotoCollectionViewCell.xib in Resources */,
 				77E7FA5921ADB436003C71E9 /* Assets.xcassets in Resources */,
+				777A495A21B4B69D006E43D1 /* Error.png in Resources */,
 				77E7FA5721ADB434003C71E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A496521B4D730006E43D1 /* Main.storyboard in Resources */,
+				777A495B21B4B69D006E43D1 /* Error.png in Resources */,
+				77B4FF7521B489310052B324 /* PhotoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +332,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A496621B4D731006E43D1 /* Main.storyboard in Resources */,
+				777A495C21B4B69D006E43D1 /* Error.png in Resources */,
+				77B4FF7621B489310052B324 /* PhotoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B4FF6421B47A8E0052B324 /* SearchItem.swift in Sources */,
+				77B4FF6221B479FC0052B324 /* FlickerService.swift in Sources */,
+				77B4FF7821B48E630052B324 /* PhotoQuery.swift in Sources */,
 				77E7FA5421ADB434003C71E9 /* ViewController.swift in Sources */,
+				77B4FF7121B489310052B324 /* PhotoCollectionViewCell.swift in Sources */,
 				77E7FA5221ADB434003C71E9 /* AppDelegate.swift in Sources */,
+				77B4FF6821B47DE00052B324 /* FlickerPhotosSearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +359,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A496721B4D737006E43D1 /* AppDelegate.swift in Sources */,
+				77B4FF7B21B4909E0052B324 /* FlickerService.swift in Sources */,
+				77B4FF7221B489310052B324 /* PhotoCollectionViewCell.swift in Sources */,
+				77B4FF6921B47DE00052B324 /* FlickerPhotosSearchResult.swift in Sources */,
+				77B4FF7921B48E630052B324 /* PhotoQuery.swift in Sources */,
+				777A496321B4D4D2006E43D1 /* ViewController.swift in Sources */,
+				77B4FF6521B47A8E0052B324 /* SearchItem.swift in Sources */,
 				77E7FA6721ADB436003C71E9 /* UDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A496821B4D738006E43D1 /* AppDelegate.swift in Sources */,
+				777A496221B4C36E006E43D1 /* FlickerPhotosSearchResult.swift in Sources */,
+				77B4FF7C21B4909E0052B324 /* FlickerService.swift in Sources */,
+				77B4FF7A21B48E630052B324 /* PhotoQuery.swift in Sources */,
 				77E7FA7221ADB436003C71E9 /* UDemoUITests.swift in Sources */,
+				777A496421B4D4D3006E43D1 /* ViewController.swift in Sources */,
+				77B4FF7321B489310052B324 /* PhotoCollectionViewCell.swift in Sources */,
+				777A496121B4C322006E43D1 /* SearchItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +541,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
 				INFOPLIST_FILE = UDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Umang.UDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.hotstar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +559,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
 				INFOPLIST_FILE = UDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Umang.UDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.hotstar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
